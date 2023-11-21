@@ -34,3 +34,36 @@ body {
   padding: 1rem;
 }
 
+.skeleton {
+  width: 8rem;
+  height: 1em;
+  border-radius: 0.375rem;
+  background: #777;
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: .5;
+  }
+}
+
+.btn {
+  padding: 0.2rem;
+  width: 100%;
+  border-radius: 0.375rem;
+  background: #646cff;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}

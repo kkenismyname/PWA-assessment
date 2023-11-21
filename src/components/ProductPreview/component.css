@@ -1,0 +1,26 @@
+.product-preview {
+  display: flex;
+  margin-top: 1rem;
+  padding: 0.5rem 0;
+}
+
+.product-preview img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.375rem;
+}
+
+.product-preview__image {
+  flex: 0 0 100px;
+  margin-right: 1rem;
+}
+
+.product-preview__content {
+  flex: 1 1 auto;
+}
+
+.product-preview__meta {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
